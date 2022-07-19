@@ -20,8 +20,10 @@ h1, h2, h3, h4, h5, h6{
 img{
     width: 100%;
 }
-.btn {
+a {
     text-decoration: none;
+}
+.btn {
     color: #10103c;
     padding: 15px 30px;
     font-weight: 500;
@@ -115,7 +117,6 @@ img{
     margin-bottom: 0px;
 }
 .news-nav li a {
-    text-decoration: none;
     font-size: 18px;
     padding: 10px 10px;
     display:block;
@@ -150,7 +151,6 @@ img{
 }
 .blog-info a {
     margin-right: 20px;
-    text-decoration: none;
     color: #060634bf;
 }
 .blog-info a i {
@@ -181,7 +181,6 @@ hr {
 .footer-nav ul li a {
     color: #918484;
     font-size: 14px;
-    text-decoration: none;
 }
 footer p {
     margin: 20px 0;
