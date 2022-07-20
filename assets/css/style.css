@@ -133,6 +133,7 @@ a {
     box-shadow: inherit;
     background-color: #10103c;
     color: #fff;
+    border: 1px solid #10103c ;
 }
 .single-post {
     box-shadow: 0px 5px 6px #10103c54;
@@ -167,7 +168,7 @@ footer h3 {
     font-size: 25px;
     margin-bottom: 20px;
 }
-hr {
+footer hr {
     margin: 50px 60px;
     border: 0.5px solid #b3b6c885;
 }
@@ -198,4 +199,43 @@ footer p {
 .social-icons i:hover {
     background: #10103c;
     color: #efe224;
+}
+
+/* explore page css */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+}
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.video-info {
+    margin: 40px 0 0 0;
+}
+.video-info a {
+    padding-right: 25px;
+    font-size: 20px;
+    color: #000;
+}
+.video-info a i {
+    padding-right: 5px;
+}
+.related-news-area {
+    padding: 50px 0;
+}
+.section-title {
+    font-size: 30px;
+}
+.details-content h2 {
+    font-size: 35px;
+    padding: 30px 0;
+    color: #10103c;
+}
+.related-news-inner hr {
+    margin-bottom: 20px;
 }

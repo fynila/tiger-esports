@@ -65,8 +65,9 @@
     .news-nav {
         padding: 20px 0px;
         width: 100%;
-        display: flex;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        background: #fff;
     }
     .news-nav li {
         display: inline-block;
@@ -75,9 +76,11 @@
     }
     .news-nav li a {
         background: none;
-        color: #fff;
-        border: none;
+        color: #10103c;
+        border: 1px solid #bdbdbd;
         box-shadow: none;
+        white-space: nowrap;
+        padding: 15px 10px;
     }
     .blog-posts {
         grid-template-columns: repeat(2, 1fr);
