@@ -39,6 +39,13 @@
     footer p {
         font-size: 12px;
     }
+    /* explore page  */
+    .back-home {
+        margin-top: 50px;
+    }
+    .video-details {
+        flex-direction: column;
+    }
  }
 
 /* Tablet devices */
