@@ -46,6 +46,9 @@
     .video-details {
         flex-direction: column;
     }
+    .details-content h2 {
+    font-size: 25px;
+    }
  }
 
 /* Tablet devices */
