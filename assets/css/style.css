@@ -156,6 +156,10 @@ a {
 .blog-info a i {
     margin-right: 10px;
 }
+.view-button {
+    text-align: center;
+    margin: 30px 0;
+}
 /* footer  */
 footer {
     background: #10103c;
