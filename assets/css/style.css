@@ -233,6 +233,10 @@ footer p {
     margin: 40px 20px 0 20px;
     white-space: nowrap;
 }
+.details-content p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
 .video-info a {
     padding-right: 25px;
     font-size: 20px;
