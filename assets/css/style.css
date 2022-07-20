@@ -33,6 +33,7 @@ a {
     border-radius: 5px;
     border: 1px solid #fcea50;
     box-shadow: 4px 4px 10px #eeefe237;
+    display:block;
 }
 .btn:hover{
     box-shadow: inherit;
