@@ -47,7 +47,6 @@ a {
 .btn:hover i{
     padding-left: 15px;
 }
-
 /* header area  */
 .header-inner {
     margin: 50px 0;
@@ -126,7 +125,12 @@ a {
     font-weight: 500;
     transition: 0.3s;
     border: 1px solid #fcea50;
-    box-shadow: 5px 5px 5px #eeefe237;
+    box-shadow: 5px 0px 10px #eeefe237;
+}
+.news-nav li a.active {
+    background: #ff0000;
+    border: #f00;
+    color: #fff;
 }
 .news-nav li a:hover{
     box-shadow: inherit;
