@@ -129,7 +129,7 @@ a {
 }
 .news-nav li a.active {
     background: #ff0000;
-    border: #f00;
+    border: 1px solid #ff0000;
     color: #fff;
 }
 .news-nav li a:hover{
